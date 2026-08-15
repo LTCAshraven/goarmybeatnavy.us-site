@@ -134,7 +134,7 @@ img {
 
 .hero-scrim {
   z-index: -2;
-  background: linear-gradient(180deg, transparent 12%, var(--cp-accent-soft) 43%, var(--cp-surface) 100%);
+  background: linear-gradient(180deg, transparent 12%, var(--cp-army-gold-soft) 43%, var(--cp-surface) 100%);
   opacity: 0.94;
 }
 
@@ -178,7 +178,7 @@ h1 {
 }
 
 h1 em {
-  color: var(--cp-accent);
+  color: var(--cp-army-gold);
   font-style: normal;
 }
 
@@ -224,7 +224,7 @@ h1 em {
   bottom: 16px;
   z-index: 2;
   margin: 0;
-  color: var(--cp-accent-fg);
+  color: var(--cp-army-white);
   font-size: 9px;
   font-weight: 700;
   text-transform: uppercase;
@@ -238,8 +238,8 @@ h1 em {
   gap: 28px;
   overflow: hidden;
   padding: 15px 0;
-  background: var(--cp-accent);
-  color: var(--cp-accent-fg);
+  background: var(--cp-army-gold);
+  color: var(--cp-army-black);
   font-size: 14px;
   text-transform: uppercase;
   animation: rally-march 22s linear infinite;
@@ -281,7 +281,7 @@ h1 em {
 }
 
 .eyebrow {
-  color: var(--cp-accent);
+  color: var(--cp-text);
 }
 
 h2 {
@@ -354,14 +354,14 @@ h2 {
   left: clamp(24px, 7vw, 110px);
   z-index: 1;
   display: flex;
-  color: var(--cp-accent-fg);
+  color: var(--cp-army-white);
   flex-direction: column;
   font-size: clamp(68px, 11vw, 180px);
   transform: translateY(-50%);
 }
 
 .battlefield-type strong {
-  color: var(--cp-accent);
+  color: var(--cp-army-gold);
   font-weight: inherit;
 }
 
@@ -372,7 +372,7 @@ h2 {
 }
 
 .tradition-heading h2 {
-  color: var(--cp-accent);
+  color: var(--cp-army-gold);
 }
 
 .tradition-copy {
@@ -424,7 +424,7 @@ h2 {
   gap: 50px;
   align-items: end;
   background: var(--cp-text);
-  color: var(--cp-accent-fg);
+  color: var(--cp-army-white);
 }
 
 .game-day h2 {
@@ -526,8 +526,8 @@ h2 {
   place-content: center;
   overflow: hidden;
   padding: 80px 24px;
-  background: var(--cp-accent);
-  color: var(--cp-accent-fg);
+  background: var(--cp-army-gold);
+  color: var(--cp-army-black);
   text-align: center;
 }
 
@@ -536,7 +536,7 @@ h2 {
   top: 50%;
   left: 50%;
   margin: 0;
-  color: var(--cp-highlight);
+  color: var(--cp-army-black-soft);
   font-size: min(32vw, 480px);
   white-space: nowrap;
   transform: translate(-50%, -50%);
@@ -552,7 +552,7 @@ h2 {
   position: relative;
   z-index: 1;
   margin-top: 34px;
-  color: var(--cp-accent-fg);
+  color: var(--cp-army-black);
 }
 
 footer {
@@ -561,7 +561,7 @@ footer {
   gap: clamp(30px, 6vw, 90px);
   padding: 60px clamp(24px, 7vw, 110px);
   background: var(--cp-text);
-  color: var(--cp-accent-fg);
+  color: var(--cp-army-white);
 }
 
 footer > p,
@@ -584,7 +584,7 @@ footer > p,
 
 .credits a:hover,
 .credits a:focus-visible {
-  color: var(--cp-accent-fg);
+  color: var(--cp-army-white);
 }
 
 .reveal {
